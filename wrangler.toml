@@ -6,3 +6,7 @@ workers_dev = true
 route = ""
 zone_id = ""
 compatibility_date = "2021-12-26"
+
+kv_namespaces = [ 
+	 { binding = "POSTS", id = "46fc2c98681447169c535336eef746cf" }
+]
