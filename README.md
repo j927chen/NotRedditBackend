@@ -1,15 +1,9 @@
-# 👷 `worker-template` Hello World
+# NotRedditBackend
 
-A template for kick starting a Cloudflare worker project.
+The backend web service for retrieving and processing content of NotReddit.
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+Employs [Cloudflare Workers](https://workers.cloudflare.com) and [Workers KV](https://www.cloudflare.com/en-ca/products/workers-kv/).
 
-#### Wrangler
+Written in JavaScript.
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+[`index.js`](https://github.com/j927chen/NotRedditBackend/blob/main/index.js) is the main script.
